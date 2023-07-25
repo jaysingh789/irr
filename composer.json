@@ -1,0 +1,13 @@
+{
+    "name": "jaysingh/irr",
+    "description": "this package for irr calculations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jay singh",
+            "email": "jaysingh@gmail.com"
+        }
+    ],
+    "require": {}
+}
