@@ -1,6 +1,6 @@
 <?php
 
-namespace jaysingh\irr;
+namespace codetimer\irr;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class irrCalculationProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->make('jaysingh\irr\irrCalculationController');
+        $this->app->make('codetimer\irr\irrCalculationController');
     }
 
     /**

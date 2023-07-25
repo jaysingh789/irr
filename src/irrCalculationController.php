@@ -1,6 +1,6 @@
 <?php
 
-namespace jaysingh\irr;
+namespace codetimer\irr;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
