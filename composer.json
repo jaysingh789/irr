@@ -9,5 +9,10 @@
             "email": "jaysingh@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "codetimer\\irr\\": "src/"
+        }
+    },
     "require": {}
 }
