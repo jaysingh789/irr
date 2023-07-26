@@ -14,5 +14,18 @@
             "codetimer\\irr\\": "src/"
         }
     },
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "codetimer\\irr\\iirCalculationProvider"
+            ],
+            "aliases": {
+                "IRR": "codetimer\\irr\\Facade\\irr",
+                "irr": "codetimer\\irr\\Facade\\irr"
+            }
+        }
+    },
+    "require": {
+        "php": "^7.2 || ^8.0"
+    }
 }
